@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "featherfallingnotramplecrops",
+  "version": "${version}",
+  "name": "FeatherFallingNoTrampleCrops",
+  "description": "An all in one Rules plugin stopping people from doing stuff in a minecraft world till they accept the Rules! ",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/featherfallingnotramplecrops/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "site.minechook.featherfallingnotramplecrops.client.FeatherFallingNoTrampleCropsClient"
+    ],
+    "main": [
+      "site.minechook.featherfallingnotramplecrops.FeatherFallingNoTrampleCrops"
+    ]
+  },
+  "mixins": [
+    "site/minechook/featherfallingnotramplecrops/mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
