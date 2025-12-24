@@ -3,7 +3,7 @@
   "id": "featherfallingnotramplecrops",
   "version": "${version}",
   "name": "FeatherFallingNoTrampleCrops",
-  "description": "An all in one Rules plugin stopping people from doing stuff in a minecraft world till they accept the Rules! ",
+  "description": "This project changes the game so that having Feather Falling Boots do not Trample Crops.",
   "authors": [],
   "contact": {},
   "license": "MIT",
