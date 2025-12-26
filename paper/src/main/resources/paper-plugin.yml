@@ -1,0 +1,7 @@
+name: FeatherFallingNoTrampleCrops
+version: 1.0.0
+main: site.minechook.featherfallingnotramplecrops.FeatherFallingNoTrampleCrops
+description: This project changes the game so that having Feather Falling Boots do not Trample Crops.
+author: MineChook
+website: https://papermc.io
+api-version: '1.21.11'
