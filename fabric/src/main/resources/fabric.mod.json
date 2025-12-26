@@ -4,7 +4,7 @@
   "version": "${version}",
   "name": "FeatherFallingNoTrampleCrops",
   "description": "This project changes the game so that having Feather Falling Boots do not Trample Crops.",
-  "authors": [],
+  "authors": ["MineChook"],
   "contact": {},
   "license": "MIT",
   "icon": "assets/featherfallingnotramplecrops/icon.png",

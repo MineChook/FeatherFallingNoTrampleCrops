@@ -19,11 +19,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @Mixin(FarmlandBlock.class)
 abstract class FarmlandBlockMixin {
 
-    private static boolean hasEnchantment(ItemStack stack, RegistryKey<Enchantment> enchantment) {
-        return stack.getEnchantments().getEnchantments().toString().
-                contains(enchantment.getValue().toString());
-    }
-
     @Inject(method = "onLandedUpon", at = @At("HEAD"), cancellable = true)
     private void onJump(World world, BlockState state, BlockPos pos, Entity entity, double fallDistance, CallbackInfo ci) {
 
@@ -34,7 +29,8 @@ abstract class FarmlandBlockMixin {
         if (boots.isEmpty()) {
             return;
         }
-        if (hasEnchantment(boots, Enchantments.FEATHER_FALLING)) {
+
+        if (boots.getEnchantments().toString().contains("feather_falling")) {
             ci.cancel();
         }
     }

@@ -5,3 +5,5 @@
 /build/classes/java/main/
 /.idea
 /run
+/fabric/run/
+/neoforge/run/
