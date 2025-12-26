@@ -41,6 +41,9 @@ authors="MineChook" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''This project changes the game so that having Feather Falling Boots do not Trample Crops.'''
 
+#icon
+logoFile="src/main/resources/icon.png"
+
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
 [[mixins]]
 config="featherfallingnotramplecrops.mixins.json"
